@@ -1,0 +1,30 @@
+{
+    "name": "philwinkle/module-fixerio",
+    "license": "MIT",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "description": "Get currency rates from the European Central Bank via the webservice Fixer.io",
+    "require": {
+        "magento/module-directory": "~100.0.5"
+    },
+    "authors":[
+        {
+            "name":"Phillip Jackson",
+            "email":"philwinkle@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+          "type": "composer",
+          "url": "https://repo.magento.com/"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Philwinkle\\Fixerio": ""
+        }
+    }
+}
