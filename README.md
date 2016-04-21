@@ -7,7 +7,7 @@ This module adds the Fixer.io webservice to the list of available currency conve
 Enable
 --
 
-To enable navigate to `System > Config > Currency Setup` and select Fixer.io from the dropdown. Ensure that your shop is set to allow multiple currencies by, of course, selecting multiple currencies from the **allowed currencies** setting.
+To enable navigate to `Stores > Currency Setup` and select Fixer.io from the dropdown. Ensure that your shop is set to allow multiple currencies by, of course, selecting multiple currencies from the **allowed currencies** setting.
 
 Populate rates
 --
