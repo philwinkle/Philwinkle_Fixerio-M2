@@ -24,7 +24,7 @@
             "src/registration.php"
         ],
         "psr-4": {
-            "Philwinkle\\Fixerio": "src/"
+            "Philwinkle\\Fixerio\\": "src/"
         }
     }
 }
