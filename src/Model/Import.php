@@ -75,7 +75,7 @@ class Import extends \Magento\Directory\Model\Currency\Import\AbstractImport
                 return bcadd($rate, '0', 12);
             }
 
-            return (double)$xml;
+            return (double) $rate;
         } catch (\Exception $e) {
             if ($retry == 0) {
                 $this->_convert($currencyFrom, $currencyTo, 1);
