@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "description": "Get currency rates from the European Central Bank via the webservice Fixer.io",
     "require": {
-        "magento/module-directory": "~100.0.5"
+        "magento/module-directory": "~100.1"
     },
     "authors":[
         {
